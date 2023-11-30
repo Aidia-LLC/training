@@ -10,14 +10,14 @@
 ### FP vs OOP
 
 
-|            Feature             | Object Oriented Programming | Functional Programming |
-| :----------------------------: | :-------------------------: | :--------------------: |
-|      First Class Citizen       |           Classes           |       Functions        |
-|          Polymorphism          |  Interfaces / Inheritance   |  Function parameters   |
-|            Behavior            |          Inherited          |        Composed        |
+|                        Feature | Object Oriented Programming | Functional Programming |
+| -----------------------------: | :-------------------------: | :--------------------: |
+|            First Class Citizen |           Classes           |       Functions        |
+|                   Polymorphism |  Interfaces / Inheritance   |  Function parameters   |
+|                       Behavior |          Inherited          |        Composed        |
 | Data and Function Relationship |            Bound            |        Separate        |
-|     Relationship to Change     |          Mutations          |         Purity         |
-|       Higher Level View        |         Simulation          |     Transformation     |
+|         Relationship to Change |          Mutations          |         Purity         |
+|              Higher Level View |         Simulation          |     Transformation     |
 
 Perhaps oddly, languages have taken to supporting both as they each have powerful attributes.
 
@@ -25,6 +25,8 @@ Perhaps oddly, languages have taken to supporting both as they each have powerfu
 
 
 ![Testing Trophy](testing-trophy.png)
+
+> Credit: Kent C. Dodds
 
 1. Static analysis is a fast sanity check. It catches stupid errors like forgetting to unwrap optionals, misspellings, and so on.
 2. It serves as documentation
