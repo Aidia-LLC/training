@@ -23,14 +23,10 @@ Perhaps oddly, languages have taken to supporting both as they each have powerfu
 
 ### So... Why Typescript?
 
-
-![Testing Trophy](testing-trophy.png)
-
-> Credit: Kent C. Dodds
-
 1. Static analysis is a fast sanity check. It catches stupid errors like forgetting to unwrap optionals, misspellings, and so on.
 2. It serves as documentation
 3. It helps with autocomplete
+4. Using a framework like Astro, we need to build anyways... so just tack it on!
 
 ### Now... Let's dive in!
 
